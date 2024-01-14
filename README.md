@@ -69,7 +69,7 @@ int main(){
     float final_sum = 0, tqun = 0;
 }
 ```
-1- **int main()** This is the main function, the starting point of every C++ program. ==The program's execution begins here.==
+1- **int main()** This is the main function, the starting point of every C++ program. The program's execution begins here.
 2- **char choice;** Declares a variable choice of type char, which will be used to store user choices (e.g., whether to continue shopping).
 3- **string name;** Declares a variable name of type string to store the user's name.
 4- **Multiple variables:** Tens of vairbles are declared to keep track of quantities (qun) and amounts (amount) for various products in different categories. These variables will be used to record user purchases.
@@ -89,7 +89,7 @@ cout << "Enter your Name : ";
 1- The program prompts the user to enter their name and password.
 2- If the entered password is 12345, it displays a welcome message along with different shopping categories.
 
-### ==Categories==:
+### **Categories**:
 
 ### Exploring Categories and Subcategories in the Virtual Mall
 
@@ -122,10 +122,10 @@ In the Virtual Mall System, shopping is organized into different **categories**,
    - After exploring, make your selections by specifying the quantity of each product you want to purchase. The system will calculate the total cost based on your choices.
 
 6. **Moving Between Categories:**
-   - Feel free to jump between categories and subcategories to discover a wide range of products. If you start in **Beauty**, you might navigate to subcategories like **Purfume**, **Lotions**, and **Creams**.
+   - Feel free to jump between categories and subcategories to discover a wide range of products. If you start in **Beauty**, you might navigate to subcategories like **Perfume**, **Lotions**, and **Creams**.
 
 This organized structure helps you efficiently navigate the virtual mall, making your shopping experience both enjoyable and streamlined. 
-==And now, I will explain the code structure of only one category because the rest are the same.==
+And now, I will explain the code structure of only one category because the rest are the same.
 
 ###Breaking down the Categories 
 ```cpp
@@ -135,7 +135,7 @@ cout << "Categories " << endl;
 cout << "___________" << endl;
 cout << endl;
 ```
-- This section prints a simple visual separator and the heading ==Categories== to the console, providing a visual break before displaying the available categories.
+- This section prints a simple visual separator and the heading Categories to the console, providing a visual break before displaying the available categories.
 
 ```cpp
 do {
