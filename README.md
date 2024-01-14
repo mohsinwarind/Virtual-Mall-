@@ -127,7 +127,7 @@ In the Virtual Mall System, shopping is organized into different **categories**,
 This organized structure helps you efficiently navigate the virtual mall, making your shopping experience both enjoyable and streamlined. 
 And now, I will explain the code structure of only one category because the rest are the same.
 
-###Breaking down the Categories 
+### Breaking down the Categories 
 ```cpp
 cout << "___________" << endl;
 cout << endl;
