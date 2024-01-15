@@ -38,6 +38,7 @@ int main(){
     cout<<"Enter your Password : ";
     cin>>input;
     if(input==12345){
+    categories:
     cout<<"___________"<<endl;
     cout<<endl;
     cout<<"Categories "<<endl;
@@ -796,9 +797,12 @@ int main(){
                 break;
         }
         cout<<endl;
-        cout<<"Do you want to Explore again(Y/N) ? ";
+        cout<<"Do you want to Explore again(Y/N) or Enter C to see the ist of Categories : ";
         cin>>choice;
     }while(choice=='Y' || choice=='y');
+    if(choice=='c' || choice=='C'){
+        goto categories;
+    }
     cout<<endl;
  if(tqun>0){
 cout<<"________________________________________________________________________________________________________________________________________________"<<endl;
