@@ -54,9 +54,9 @@ This code serves as an entry point for students to apply their theoretical knowl
 #include<string>
 using namespace std;
 ```
-1- <code>**#include<iostream>:**</code> This line includes the input/output stream library, which provides functionality for reading from and writing to the console.
-2- <code>**#include<iomanip>:**</code> This line includes the input/output manipulator library, allowing for advanced formatting of output.
-3- <code>**#include<string>:**</code> This line includes the string library, which provides functionality for working with strings.
+1- <code>**```#include<iostream>:```**</code> This line includes the input/output stream library, which provides functionality for reading from and writing to the console.
+2- <code>**```#include<iomanip>:```**</code> This line includes the input/output manipulator library, allowing for advanced formatting of output.
+3- <code>**```#include<string>:```**</code> This line includes the string library, which provides functionality for working with strings.
 
 ### Main function and Variables:
 ```cpp
