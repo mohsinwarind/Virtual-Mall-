@@ -54,9 +54,9 @@ This code serves as an entry point for students to apply their theoretical knowl
 #include<string>
 using namespace std;
 ```
-1- **#include<iostream>:** This line includes the input/output stream library, which provides functionality for reading from and writing to the console.
-2- **#include<iomanip>:** This line includes the input/output manipulator library, allowing for advanced formatting of output.
-3- **#include<string>:** This line includes the string library, which provides functionality for working with strings.
+1- <code>**#include<iostream>:**</code> This line includes the input/output stream library, which provides functionality for reading from and writing to the console.
+2- <code>**#include<iomanip>:**</code> This line includes the input/output manipulator library, allowing for advanced formatting of output.
+3- <code>**#include<string>:**</code> This line includes the string library, which provides functionality for working with strings.
 
 ### Main function and Variables:
 ```cpp
@@ -69,12 +69,12 @@ int main(){
     float final_sum = 0, tqun = 0;
 }
 ```
-1- **int main()** This is the main function, the starting point of every C++ program. The program's execution begins here.
-2- **char choice;** Declares a variable choice of type char, which will be used to store user choices (e.g., whether to continue shopping).
-3- **string name;** Declares a variable name of type string to store the user's name.
-4- **Multiple variables:** Tens of vairbles are declared to keep track of quantities (qun) and amounts (amount) for various products in different categories. These variables will be used to record user purchases.
-5- **float final_sum = 0:**  Initializes a floating-point variable final_sum to keep track of the total cost of the user's purchases.
-6- **float tqun = 0:** Initializes a floating-point variable tqun to store the total quantity of items purchased.
+1- <code>**int main()**</code> This is the main function, the starting point of every C++ program. The program's execution begins here.
+2- <code>**char choice;**</code> Declares a variable choice of type char, which will be used to store user choices (e.g., whether to continue shopping).
+3- <code>**string name;**</code> Declares a variable name of type string to store the user's name.
+4- <code>**Multiple variables:**</code> Tens of vairbles are declared to keep track of quantities (qun) and amounts (amount) for various products in different categories. These variables will be used to record user purchases.
+5- <code>**float final_sum = 0:**</code>  Initializes a floating-point variable final_sum to keep track of the total cost of the user's purchases.
+6- <code>**float tqun = 0:**</code> Initializes a floating-point variable tqun to store the total quantity of items purchased.
 ###User Authentication:
 ```cpp
 cout << "Enter your Name : ";
